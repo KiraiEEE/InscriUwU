@@ -1,0 +1,105 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Inter', sans-serif;
+        }
+        .boody{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 5em;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-height: 7vh;
+            background-color: #e7e6e6;
+        }
+        .inscrirer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 4em;
+            background-color: #F5F5F5;
+            border-radius: 10px;
+
+            
+        }
+        .langu{
+            display: flex;
+            margin-right: 1em;
+            padding: 0.4em;
+            border-radius: 7px;
+            background-color: #ffffff;
+        }
+        .langu select{
+            background-color: #ffffff;
+            border: none;
+            outline: 0;
+            padding-left: 0.4em;
+            padding-right: 0.4em;
+            font-weight: bold;
+            text-align: center;
+        }
+        .langu select option{
+
+            background-color: c9c9c9;
+        }
+        .langsocial{
+            display: flex;
+        }
+        .social{
+            margin-left: 0.5em;
+            align-items: center;
+            justify-content: space-around;
+            font-size: x-large;
+            
+        }
+        .social i{
+            margin-left: 0.4em;
+            cursor: pointer;
+            opacity: 70%;
+            transition: ease-in 0.2s;
+        }
+        .social i:hover{
+            opacity: 100%;
+
+        }
+        .formy{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+        .formy input{
+            padding: 0.8em;
+            border: none;
+            border-radius: 9px;
+            margin: 1.5em;
+        }
+        .formy input:not(:last-child){
+            width: 25em;
+        }
+        .cappo{
+            width: 10em;
+        }
+        .captcha img{
+            width: 35%;
+        }
+        .formy button{
+            padding: 0.7em;
+            border-radius: 8px;
+            border: none;
+            background-color: #D00524;
+            color: rgb(233, 233, 233);
+            font-size: large;
+            padding-left:2.5em;
+            padding-right:2.5em;
+            
+        }

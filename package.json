@@ -1,0 +1,11 @@
+{
+  "name": "inscriporn",
+  "version": "0.0.1",
+  "description": "a better experience (remake of an unofficial client) of the user interface of inscription.tn without server functions only a puppeteer Web Scraper to the original website",
+  "main": "index.html",
+  "scripts": {
+    "test": "run"
+  },
+  "author": "KiraiEEE/7aggy",
+  "license": "MINE"
+}

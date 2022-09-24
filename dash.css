@@ -1,0 +1,82 @@
+
+.smoge{
+    justify-content: space-around;
+    align-items: center;
+}
+.infoz{
+    width: 55.9em;
+    background-color: #BB2D3B;
+    color: rgb(231, 231, 231);
+    margin-left: 10em;
+    margin-right: 10em;
+    padding: 1.5em;
+    border-radius: 25px;
+    font-size: large;
+}
+.infoz h5,p{
+    margin: 0.5em;
+}
+.infoz p{
+    font-size: small;
+}
+hr{
+    opacity: 50%;
+    
+}
+.dash{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    body {
+        overflow: hidden; 
+      }
+}
+.cards .card{
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex: 0 0 16.66em;
+    margin: 1em;
+    padding: 1.1em;
+    border: solid 2px #BB2D3B ;
+    border-radius: 9px;
+    /* flex: 0 0 33.333%; */
+    transition: ease 0.31s;
+    
+}
+.cards i{
+    font-size: xx-large;
+    margin-bottom: 0.5em;
+}
+.cards .card:hover{
+
+    background-color: #BB2D3B;
+    color: rgb(240, 240, 240);
+    border: solid 2px #c42f3e ;
+    /* padding-left: 1.69em;
+    padding-right: 1.69em; */
+}
+.btntext{
+    margin-left: 0.3em;
+}
+.Dec{
+    padding: 0.1em;
+    cursor: pointer;
+    padding-left: 0.9em;
+    padding-right: 0.4em;
+    border-radius: 9px;
+    transition: ease 0.4s;
+}
+.Dec:hover{
+    color:#BB2D3B;
+    background-color: white;
+}

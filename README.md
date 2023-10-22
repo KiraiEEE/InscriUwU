@@ -1,2 +1,2 @@
 # InscriPorn
-Inscri Clone For Fun
+High Education SignUp Website Clone For Fun (Discontinued)
